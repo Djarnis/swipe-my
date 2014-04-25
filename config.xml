@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.redpitt.kronborgappx"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Kronborg Android App Swipe Test</name>
+
+    <description>
+        This is a test!
+    </description>
+
+    <author href="https://www.redpitt.com" email="jeppe@redpitt.com">
+        Jeppe
+    </author>
+
+    <!-- 
+    By default PhoneGap Build builds your application for every platform. 
+    If you only want to build for certain platforms you can specify these platforms with the gap:platform tag.
+
+    Example Usage
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+    -->
+
+    <gap:platform name="android" />
+
+
+
+    <!-- 
+
+        phonegap-version     Currently supported versions are 2.5.0, 2.7.0, 2.9.0, and 3.1.0 (default) -- all versions prior to 2.5.0 have been deprecated. If you don't specify a version in your config, it will be set to the current default version. Your app will not build if you specify an unsupported version number. 
+
+        Example: 
+        <preference name="phonegap-version" value="3.1.0" />
+        orientation  Device orientation; possible values are default, landscape, or portrait. Please note that default means both landscape and portrait are enabled. If you want to use each platform's default settings (usually portrait only), remove this tag from your config.xml file. 
+
+        Example: 
+        <preference name="orientation" value="landscape" />
+        fullscreen   Makes your app full screen, with values true or false. This hides the status bar at the top, and is false by default. 
+
+        Example: 
+        <preference name="fullscreen" value="true" />
+        iOS Only
+
+        target-device
+        (ios only)   For targeting a specific device; possible values are handset, tablet, or universal. Note that this currently only applies to iOS builds; by default all builds are universal. 
+
+        Example: 
+        <preference name="target-device" value="universal" />
+        prerendered-icon
+        (ios only)   This will cause iOS to not apply its gloss to the app's icon on the user's home screen; possible values are true or false, default is false. 
+
+        Example: 
+        <preference name="prerendered-icon" value="true" />
+        ios-statusbarstyle
+        (ios only)   Set the iOS status bar style with values default, black-opaque or black-translucent. The default is a grey status bar, black-opaque will appear black. Although black-translucent is supported, the PhoneGap webview does not extend beneath the status bar, so it will appear identical to black-opaque once your app is running. 
+
+        Example: 
+        <preference name="ios-statusbarstyle" value="black-opaque" />
+        detect-data-types
+        (ios only)   Controls whether certain data types (such as phone numbers and dates) are automatically turned into links by the system. Defaults to "true" (as does the system web view). In preference to this, try using meta-tags: And use detect-data-types if meta tags don't work for you. 
+
+        Example: 
+        <preference name="detect-data-types" value="true" />
+        exit-on-suspend
+        (ios only)   If set to true, app will terminate when suspended, for example when home button is pressed; default is false. 
+
+        Example: 
+        <preference name="exit-on-suspend" value="true" />
+        deployment-target
+        (ios only)   This sets the IPHONEOS_DEPLOYMENT_TARGET in the build, which tranlsates to the MinimumOSVersion in the ipa Propertly List. 
+
+        Example: 
+        <preference name="deployment-target" value="7.0" />
+        Android Only
+
+        android-minSdkVersion
+        (android only)   Minimum Android SDK version. Corresponds to the usesSdk attributes in the AndroidManifest.xml file - more details are in [the Android documentation](http://developer.android.com/guide/topics/manifest/uses-sdk-element.html). Defaults to 7 (Android 2.1). 
+
+        Example: 
+        <preference name="android-minSdkVersion" value="10" />
+        android-maxSdkVersion
+        (android only)   Maximum Android SDK version. Corresponds to the usesSdk attributes in the AndroidManifest.xml file - more details are in [the Android documentation](http://developer.android.com/guide/topics/manifest/uses-sdk-element.html). Unset by default. 
+
+        Example: 
+        <preference name="android-maxSdkVersion" value="15" />
+        android-targetSdkVersion
+        (android only)   Corresponds to the usesSdk attributes in the AndroidManifest.xml file -- an integer designating the API Level that the application targets. If not set, the default value equals that given to minSdkVersion. More details are in [the Android documentation](http://developer.android.com/guide/topics/manifest/uses-sdk-element.html#target). Unset by default. 
+
+        Example: 
+        <preference name="android-targetSdkVersion" value="12" />
+        android-installLocation
+        (android only)   Where an app can be installed - defaults to internalOnly (as the Android SDK). auto or preferExternal allow the app to be installed on an SD card - this can lead to unexpected behavior. More details available in [the Android documentation](http://developer.android.com/guide/appendix/install-location.html). 
+
+        Example: 
+        <preference name="android-installLocation" value="auto" />
+        android-windowSoftInputMode
+        (android only)   How the main window of the activity interacts with the window containing the on-screen soft keyboard. More details, and possible values, available in [the Android documentation](http://developer.android.com/guide/topics/manifest/activity-element.html#wsoft). 
+
+        Example: 
+        <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+        splash-screen-duration
+        (android only)   Duration that the splash screen remains visible; defaults to 5000 (ms). For auto-hide behaviour call navigator.splashscreen.hide() in the deviceready callback. 
+
+        Example: 
+        <preference name="splash-screen-duration" value="10000"/>
+
+    -->
+</widget>
