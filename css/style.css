@@ -104,14 +104,14 @@ a.boxclose{
   height:33.33%;
   position: relative;
 
-  overflow-y:hidden;
-  overflow-x:scroll; 
-  -webkit-overflow-scrolling:touch;
-
-
-    -webkit-overflow-scrolling: touch !important;
-    overflow: scroll !important;
   
+
+  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch !important;
+  overflow: scroll !important;
+  /* overflow-y:hidden;
+  overflow-x:scroll; 
+  */ 
 
 }
 
