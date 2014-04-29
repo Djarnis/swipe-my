@@ -11,12 +11,11 @@ $(function() {
   $('.img').width(unitW).height(unitH);
 	
   // window.mySwipe = $('.mySwipe').show().width(stageW).height(unitH).Swipe().data('Swipe');
-	$.nonbounce();
+	// $.nonbounce();
 
  
   // Click functions ...
-  if(1 === 2){
-
+  
 
     $( ".img" ).click(function() {
       // alert('CLICK!');
@@ -30,7 +29,6 @@ $(function() {
     }); // end img.click(function)
   
 
-  }
     
 
   $('#boxclose').click(function(){
