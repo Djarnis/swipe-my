@@ -1,6 +1,7 @@
 $(function() {
 	
-
+  FastClick.attach(document.body);
+  
   var rowno = 3;
 	var colno = 4;
 	var stageW = $(window).width()
