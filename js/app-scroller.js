@@ -5,22 +5,18 @@ $(function() {
 	var colno = 4;
 	var stageW = $(window).width()
 	var stageH = $(window).height()
-	var unitW = stageW / colno;
-	var unitH = stageH / rowno;
+	var unitW = 480; //  stageW / colno;
+	var unitH = 270; // stageH / rowno;
 	
   $('.img').width(unitW).height(unitH);
-	// window.mySwipe = $('.mySwipe').show().width(stageW).height(unitH).Swipe().data('Swipe');
-	// $.nonbounce();
+	
+  // window.mySwipe = $('.mySwipe').show().width(stageW).height(unitH).Swipe().data('Swipe');
+	$.nonbounce();
 
-  var menuWidth=0;
-    $('.scroller1 a').map(function(){
-        menuWidth = menuWidth + $(this).outerWidth(true);
-    });
-    // + 15px as fix, this maybe vary in your project
-    $('.wrapper').css('width', (menuWidth+15)); 
-
+ 
   // Click functions ...
   $( ".img" ).click(function() {
+    // alert('CLICK!');
     var $dataInfoFile = $(this).data("infofile");
     var fileUrl = 'info/'+ $dataInfoFile +'.htm';
 
