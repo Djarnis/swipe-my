@@ -12,18 +12,12 @@ $(function() {
 	// window.mySwipe = $('.mySwipe').show().width(stageW).height(unitH).Swipe().data('Swipe');
 	// $.nonbounce();
 
-
   var menuWidth=0;
     $('.scroller1 a').map(function(){
         menuWidth = menuWidth + $(this).outerWidth(true);
     });
     // + 15px as fix, this maybe vary in your project
     $('.wrapper').css('width', (menuWidth+15)); 
-
-
-
-
-
 
   // Click functions ...
   $( ".img" ).click(function() {
@@ -36,12 +30,7 @@ $(function() {
     });
   }); // end img.click(function)
 
-
-
   $('#boxclose').click(function(){
     $('#overlay-box').animate({'top':'-200px'},500,function(){ $('#overlay').fadeOut('fast'); });
   });
-
-
-
 });
