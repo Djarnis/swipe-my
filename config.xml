@@ -7,10 +7,11 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Test 670 Swipe Test</name>
+    <name>Scroll Test 671</name>
 
     <description>
-        This is test number 670
+        This is test number 671.
+        Removed all animations. Added a 70% transparent png for the overlay bg.
     </description>
 
     <author href="https://www.redpitt.com" email="jeppe@redpitt.com">
