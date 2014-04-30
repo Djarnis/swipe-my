@@ -7,10 +7,12 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Scroll Test 673</name>
+    <name>Scroll Test 674</name>
 
     <description>
-        
+        Test #674.
+        Replaced jquery with xui and minified appscroller. Getting closer ;) 
+
         Test #673.
         Optimized js
 
