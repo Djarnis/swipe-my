@@ -1,9 +1,22 @@
 var info_xxxxxxx = '';
 
 
+xui.extend({
+    data: function(attribute, val) {
+        if (arguments.length == 2) {
+            return this.attr(attribute, val);
+        } else {
+            return this.attr(attribute);
+        }
+    }
+});
+
+
+
 xui.ready(function() { 
     // alert('Ready to rock!');
-    FastClick.attach(document.body);
+    // fastClick(document.body);
+    
     preCache();
     preClick();
 });
