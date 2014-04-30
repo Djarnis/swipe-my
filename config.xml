@@ -7,10 +7,13 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Scroll Test 672</name>
+    <name>Scroll Test 673</name>
 
     <description>
         
+        Test #673.
+        Optimized js
+
         Test #672.
         Preload info page (paged in variable)
         Added jquery mobile
