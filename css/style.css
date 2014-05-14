@@ -72,9 +72,9 @@ a:hover{
     z-index: 100;
 }
 
-#overlay-box {
+.overlay-box {
      position:fixed;
-    top:-200px;
+    top:200px;
     left:30%;
     right:30%;
     background-color:#fff;
@@ -88,7 +88,25 @@ a:hover{
     -webkit-box-shadow: 0 1px 5px #333;
     z-index:101;
 }
-#info-box{ background-color: #fff;}
+.info-box{ background-color: #fff;}
+
+.info-box-image{
+   position:fixed;
+    top:0;
+    left:0;
+    /* right:30%;
+    */
+    background-color:#000;
+    color:#7F7F7F;
+    padding:0;
+    border:none;
+    -moz-border-radius: 0;
+    -webkit-border-radius:0;
+    -khtml-border-radius:0;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+    z-index:101;
+}
 a.boxclose{
     float:right;
     width:26px;
