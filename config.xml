@@ -7,9 +7,12 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Scroll Test 677</name>
+    <name>Scroll Test 678</name>
 
     <description>
+        
+        Test #678. 
+        Changed viewtype (doubleclick error)
 
         Test #677.
         New tests + lang img
