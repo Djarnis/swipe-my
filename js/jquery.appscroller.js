@@ -98,6 +98,7 @@ function showInfo( strInfoFile, infoType ){
 
     // $('.overlay-box').html('strInfoFile: '+ strInfoFile +'<br>infoType: '+ infoType + '<br>'+ infohtml);
     $('.info-box').html(infohtml);
+    $('.info-box').addClass('info-box-trans');
     $('.overlay-box').addClass('info-box-image');
     // $('.overlay-box').css({'top':'0'});
     // $('.overlay-box').css({'left':'0'});
@@ -111,6 +112,7 @@ function showInfo( strInfoFile, infoType ){
 }
 function hideInfo(){
   $('.overlay-box').removeClass('info-box-image');
+  $('.info-box').removeClass('info-box-trans');
   $('#overlay').css({'display':'none'});
   $( ".info-box" ).html( '' );
   $( ".overlay-box" ).html( '<a class="boxclose" id="boxclose"></a><div class="info-box"></div>' );

@@ -7,9 +7,12 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Scroll Test 676</name>
+    <name>Scroll Test 677</name>
 
     <description>
+
+        Test #677.
+        New tests + lang img
 
         Test #676.
         New img. Added meta + more loading functions (for html + images)

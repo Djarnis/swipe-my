@@ -89,6 +89,7 @@ a:hover{
     z-index:101;
 }
 .info-box{ background-color: #fff;}
+.info-box-trans{ background-color: transparent;}
 
 .info-box-image{
    position:fixed;
@@ -96,7 +97,7 @@ a:hover{
     left:0;
     /* right:30%;
     */
-    background-color:#000;
+    background-color:transparent;
     color:#7F7F7F;
     padding:0;
     border:none;
@@ -148,4 +149,11 @@ a.boxclose{
 
 .scroller-wrap .row{
   position: absolute;
+}
+
+#langbox{
+  position: absolute;
+  top:980px;
+  left:0;
+  z-index: 5;
 }
