@@ -7,9 +7,12 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Scroll Test 679</name>
+    <name>Scroll Test 680</name>
 
     <description>
+        Test #680. 
+        Added viewport
+
         Test #679. 
         removed lang. bum
 
